@@ -36,7 +36,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: "php_movie_pro"
+        container_name: "php_my_project"
 
         volumes:
             - "./:/var/www/html"
@@ -48,7 +48,7 @@ services:
 
     npm:
         image: "node:13.7"
-        container_name: "npm_movie_pro"
+        container_name: "npm_my_project"
         volumes:
             - "./:/var/www/html"
         working_dir: /var/www/html
