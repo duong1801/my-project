@@ -5,17 +5,17 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/sass/app.scss',
+                'resources/css/app.css',
                 'resources/js/app.js',
             ],
             refresh: true,
         }),
     ],
-    server: {
-        host: true,
-        port: 5173,
-        watch: {
-            usePolling:true,
-        }
-    },
+    // server: {
+    //     host: true,
+    //     port: 5173,
+    //     watch: {
+    //         usePolling:true,
+    //     }
+    // },
 });
