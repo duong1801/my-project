@@ -34,7 +34,7 @@ return [
     'facebook' => [
         'client_id' => '1246426352689214',
         'client_secret' => 'c87262928e5c695fd37e5d8a123416e0',
-        'redirect' => 'https://bluesky.io.vn/callback',
+        'redirect' => 'https://bluesky.io.vn/login/facebook/callback',
     ],
 
 
