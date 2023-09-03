@@ -27,6 +27,5 @@ Route::get('login/{social}', [
 ]);
 
 Route::get('login/{social}/callback', [
-    'as' => 'login.{social}.callback',
-    'uses' => 'SocialAccountController@handleProviderCallback'
+    SocialAccountController::class,'handleProviderCallback'
 ]);
