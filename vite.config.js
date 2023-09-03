@@ -11,11 +11,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    // server: {
-    //     host: true,
-    //     port: 5173,
-    //     watch: {
-    //         usePolling:true,
-    //     }
-    // },
+    server: {
+        host: true,
+        port: 5173,
+        watch: {
+            usePolling:true,
+        }
+    },
 });
