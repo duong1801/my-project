@@ -18,4 +18,7 @@ export default defineConfig({
             usePolling:true,
         }
     },
+    append: [
+        'node_modules/bootstrap/dist/css/bootstrap.css',
+    ],
 });
