@@ -54,3 +54,4 @@ services:
         working_dir: /var/www/html
         entrypoint:
             - npm
+        command: npm run build
