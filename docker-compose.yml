@@ -47,7 +47,7 @@ services:
             - app-network
 
     npm:
-        image: "node:20"
+        image: "node:20-alpine3.17"
         container_name: "npm_my_project"
         volumes:
             - "./:/var/www/html"
