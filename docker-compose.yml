@@ -49,8 +49,6 @@ services:
     npm:
         image: "node:20-alpine3.17"
         container_name: "npm_my_project"
-        build:
-            context: .
         volumes:
             - "./:/var/www/html"
         working_dir: /var/www/html
