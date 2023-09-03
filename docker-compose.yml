@@ -53,8 +53,8 @@ services:
             - "./:/var/www/html"
         working_dir: /var/www/html
         ports:
-            - "8080:8080"
-        command: "npm run build"
+            - "3000:3000"
+        command: "npm run dev"
         depends_on:
             - php
         networks:
